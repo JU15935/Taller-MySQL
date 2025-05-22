@@ -181,11 +181,6 @@ Este diseño MER proporciona una base sólida para un sistema de gestión acadé
 
  diagrama MER 
 
- erDiagram
-    ESTUDIANTE ||--o{ INSCRIPCION : "se_inscribe"
-    CURSO ||--o{ INSCRIPCION : "recibe"
-    PERIODO_ACADEMICO ||--o{ INSCRIPCION : "en_periodo"
-    
     PROFESOR ||--o{ IMPARTE : "enseña"
     CURSO ||--o{ IMPARTE : "es_impartido"
     PERIODO_ACADEMICO ||--o{ IMPARTE : "en_periodo"
