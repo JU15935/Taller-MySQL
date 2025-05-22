@@ -291,22 +291,4 @@ Este diseño MER proporciona una base sólida para un sistema de gestión acadé
         time hora_fin
     }
 
-+------------------+       +------------------+       +------------------+
-|   DEPARTAMENTO   |       |     PROFESOR     |       |      CURSO       |
-+------------------+       +------------------+       +------------------+
-| PK: departamento |-------| PK: profesor_id  |-------| PK: curso_id     |
-|    nombre        |       |    nombre        |       |    nombre        |
-|    codigo_...    |       |    departamento  |-------|    departamento  |
-|    jefe_dep...   |-------|    (FK)          |       |    (FK)          |
-+------------------+       +------------------+       +------------------+
-         |                                                   |
-         |                                                   |
-         v                                                   v
-+------------------+       +------------------+       +------------------+
-|     AULA         |       | PERIODO_ACAD... |       |   ESTUDIANTE     |
-+------------------+       +------------------+       +------------------+
-| PK: aula_id      |       | PK: periodo_id  |       | PK: estudiante_id|
-|    numero_aula   |       |    nombre       |       |    nombre        |
-+------------------+       +------------------+       +------------------+
-
-  [Documento Explicativo - Deciciones de Diseño MER.pdf](https://github.com/user-attachments/files/20378934/Documento.Explicativo.-.Deciciones.de.Diseno.MER.pdf)
+[Documento Explicativo - Deciciones de Diseño MER.pdf](https://github.com/user-attachments/files/20378934/Documento.Explicativo.-.Deciciones.de.Diseno.MER.pdf)
